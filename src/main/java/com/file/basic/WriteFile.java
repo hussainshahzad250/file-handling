@@ -1,4 +1,4 @@
-package com.file.createfile.basic;// Import the FileWriter class
+package com.file.basic;// Import the FileWriter class
 
 import java.io.FileWriter;
 

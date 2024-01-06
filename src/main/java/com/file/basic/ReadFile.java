@@ -1,4 +1,4 @@
-package com.file.createfile.basic;// Import the File class
+package com.file.basic;// Import the File class
 
 import java.io.File;
 

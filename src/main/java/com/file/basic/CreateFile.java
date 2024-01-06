@@ -1,4 +1,4 @@
-package com.file.createfile.basic;
+package com.file.basic;
 
 // Import the File class
 import java.io.File;
@@ -11,9 +11,9 @@ public class CreateFile {
     public static void main(String[] args) {
 
         try {
-            File Obj = new File("myfile.txt");
-            if (Obj.createNewFile()) {
-                System.out.println("File created: " + Obj.getName());
+            File obj = new File("myfile.txt");
+            if (obj.createNewFile()) {
+                System.out.println("File created: " + obj.getName());
             } else {
                 System.out.println("File already exists.");
             }
